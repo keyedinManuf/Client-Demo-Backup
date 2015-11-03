@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" verbose="4" name="Failed suite [Suite1]" parallel="methods">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="TestNG ReportNG Testing(failed)" parallel="methods">
+    <classes>
+      <class name="pak.KeyedINTestNG">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="CreateSO2"/>
+          <include name="CreateSO3"/>
+        </methods>
+      </class> <!-- pak.KeyedINTestNG -->
+    </classes>
+  </test> <!-- TestNG ReportNG Testing(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

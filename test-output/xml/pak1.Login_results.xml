@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Logging KeyedIN using Framework"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="30.560">
+  <properties />
+  
+  
+            <testcase name="Login1" time="30.560" classname="pak1.Login" />
+      
+</testsuite>

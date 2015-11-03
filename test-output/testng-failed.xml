@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite_KeyedIN_001]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="Logging KeyedIN using Framework(failed)">
+    <classes>
+      <class name="pak1.Login">
+        <methods>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- pak1.Login -->
+      <class name="pak1.SOManipulation">
+        <methods>
+          <include name="afterTest"/>
+          <include name="Login1"/>
+        </methods>
+      </class> <!-- pak1.SOManipulation -->
+    </classes>
+  </test> <!-- Logging KeyedIN using Framework(failed) -->
+</suite> <!-- Failed suite [Suite_KeyedIN_001] -->

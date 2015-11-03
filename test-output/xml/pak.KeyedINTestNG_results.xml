@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestNG ReportNG Testing"
+           tests="4"
+           failures="1"
+           errors="0"
+           skipped="1"
+           time="0.117">
+  <properties />
+            <testcase name="CreateSO2" time="0.109" classname="pak.KeyedINTestNG">
+                <failure type="org.openqa.selenium.NoSuchElementException"
+                  message="Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html/body/div&quot;}
+Command duration or timeout: 73 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.48.2&apos;, revision: &apos;41bccdd&apos;, time: &apos;2015-10-09 19:59:12&apos;
+System info: host: &apos;CGVAK-204&apos;, ip: &apos;172.16.11.13&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_11&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=31.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: b44b9e4b-90fc-4fb7-ac85-50bb4831395b
+*** Element info: {Using=xpath, value=/html/body/div}"
+              >
+<![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"/html/body/div"}
+Command duration or timeout: 73 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'CGVAK-204', ip: '172.16.11.13', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=31.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: b44b9e4b-90fc-4fb7-ac85-50bb4831395b
+*** Element info: {Using=xpath, value=/html/body/div}
+  sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+  sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+  sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+  java.lang.reflect.Constructor.newInstance(Unknown Source)
+  org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+  org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+  org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+  org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+  org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:490)
+  org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+  org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:345)
+  pak.KeyedINTestNG.CreateSO2(KeyedINTestNG.java:29)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+  java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+  java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+  java.lang.Thread.run(Unknown Source)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"/html/body/div"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'CGVAK-204', ip: '172.16.11.13', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_11'
+Driver info: driver.version: unknown
+  <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/SIVAKU~1/AppData/Local/Temp/anonymous6806148247752179931webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10659)
+  <anonymous class>.FirefoxDriver.prototype.findElement(file:///C:/Users/SIVAKU~1/AppData/Local/Temp/anonymous6806148247752179931webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10668)
+  <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/SIVAKU~1/AppData/Local/Temp/anonymous6806148247752179931webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12534)
+  <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///C:/Users/SIVAKU~1/AppData/Local/Temp/anonymous6806148247752179931webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12539)
+  <anonymous class>.DelayedCommand.prototype.execute/<(file:///C:/Users/SIVAKU~1/AppData/Local/Temp/anonymous6806148247752179931webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12481)
+]]>
+      </failure>
+
+          </testcase>
+  
+            <testcase name="CreateSO3" time="0.0" classname="pak.KeyedINTestNG">
+          <skipped />
+    </testcase>
+  
+            <testcase name="CreateSO1" time="0.006" classname="pak.KeyedINTestNG" />
+                <testcase name="Login" time="0.001" classname="pak.KeyedINTestNG" />
+      
+</testsuite>
