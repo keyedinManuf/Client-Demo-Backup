@@ -90,7 +90,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">11 methods, 1 failed,   10 passed</span>
+                    <span class="method-stats">7 methods, 1 failed,  1 skipped,  5 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -105,6 +105,20 @@
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Suite_KeyedIN_001 -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Suite_KeyedIN_001" class="hide-methods skipped suite-Suite_KeyedIN_001"> (hide)</a> <!-- hide-methods skipped suite-Suite_KeyedIN_001 -->
+                      <a href="#" panel-name="suite-Suite_KeyedIN_001" class="show-methods skipped suite-Suite_KeyedIN_001"> (show)</a> <!-- show-methods skipped suite-Suite_KeyedIN_001 -->
+                    </span>
+                    <div class="method-list-content skipped suite-Suite_KeyedIN_001">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite_KeyedIN_001" title="pak1.SOManipulation" hash-for-method="T4">T4</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Suite_KeyedIN_001 -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -131,31 +145,6 @@
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite_KeyedIN_001" title="pak1.Login" hash-for-method="Login1">Login1</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite_KeyedIN_001" title="pak1.SOManipulation" hash-for-method="T4">T4</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite_KeyedIN_001" title="pak1.SOManipulation" hash-for-method="T5">T5</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite_KeyedIN_001" title="pak1.SOManipulation" hash-for-method="T6">T6</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite_KeyedIN_001" title="pak1.SOManipulation" hash-for-method="T7">T7</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite_KeyedIN_001" title="pak1.SOManipulation" hash-for-method="T8">T8</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -187,13 +176,13 @@
                   </a> <!-- Login1 -->
                   <span class="method-name">Login1</span>
                   <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html/body/div/div/form/ul/li[1]/input&quot;}
-Command duration or timeout: 188 milliseconds
+Command duration or timeout: 148 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;2.48.2&apos;, revision: &apos;41bccdd&apos;, time: &apos;2015-10-09 19:59:12&apos;
 System info: host: &apos;CGVAK-204&apos;, ip: &apos;172.16.11.13&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_11&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
 Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=31.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 42d254ff-fc6f-49e2-a8a9-9463dbc516bf
+Session ID: dbdc423a-031c-4d61-9993-6172fc5e3ed3
 *** Element info: {Using=xpath, value=/html/body/div/div/form/ul/li[1]/input}
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
@@ -208,17 +197,36 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: &apos;2.48.2&apos;, revision: &apos;41bccdd&apos;, time: &apos;2015-10-09 19:59:12&apos;
 System info: host: &apos;CGVAK-204&apos;, ip: &apos;172.16.11.13&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_11&apos;
 Driver info: driver.version: unknown
-	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/SIVAKU~1/AppData/Local/Temp/anonymous7069052928194680599webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10659)
-	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElement(file:///C:/Users/SIVAKU~1/AppData/Local/Temp/anonymous7069052928194680599webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10668)
-	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/SIVAKU~1/AppData/Local/Temp/anonymous7069052928194680599webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12534)
-	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_(file:///C:/Users/SIVAKU~1/AppData/Local/Temp/anonymous7069052928194680599webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12539)
-	at &lt;anonymous class&gt;.DelayedCommand.prototype.execute/&lt;(file:///C:/Users/SIVAKU~1/AppData/Local/Temp/anonymous7069052928194680599webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12481)
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/SIVAKU~1/AppData/Local/Temp/anonymous5160521289378245894webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10659)
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElement(file:///C:/Users/SIVAKU~1/AppData/Local/Temp/anonymous5160521289378245894webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10668)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/SIVAKU~1/AppData/Local/Temp/anonymous5160521289378245894webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12534)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_(file:///C:/Users/SIVAKU~1/AppData/Local/Temp/anonymous5160521289378245894webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12539)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.execute/&lt;(file:///C:/Users/SIVAKU~1/AppData/Local/Temp/anonymous5160521289378245894webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12481)
 ... Removed 28 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite_KeyedIN_001-class-failed -->
+          <div class="suite-Suite_KeyedIN_001-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">pak1.SOManipulation</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="T4">
+                  </a> <!-- T4 -->
+                  <span class="method-name">T4</span>
+                  <div class="stack-trace">org.testng.SkipException: Test
+	at pak1.SOManipulation.T4(SOManipulation.java:121)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite_KeyedIN_001-class-skipped -->
           <div class="suite-Suite_KeyedIN_001-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -259,41 +267,6 @@ Driver info: driver.version: unknown
                   <a name="EditSO">
                   </a> <!-- EditSO -->
                   <span class="method-name">EditSO</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="T4">
-                  </a> <!-- T4 -->
-                  <span class="method-name">T4</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="T5">
-                  </a> <!-- T5 -->
-                  <span class="method-name">T5</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="T6">
-                  </a> <!-- T6 -->
-                  <span class="method-name">T6</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="T7">
-                  </a> <!-- T7 -->
-                  <span class="method-name">T7</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="T8">
-                  </a> <!-- T8 -->
-                  <span class="method-name">T8</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -362,56 +335,40 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(11);
+data.addRows(7);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'Login1')
-data.setCell(0, 2, 'pak1.Login')
-data.setCell(0, 3, 30560);
+data.setCell(0, 1, 'DeleteSO')
+data.setCell(0, 2, 'pak1.SOManipulation')
+data.setCell(0, 3, 28846);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'AddSO')
 data.setCell(1, 2, 'pak1.SOManipulation')
-data.setCell(1, 3, 30030);
+data.setCell(1, 3, 25689);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'DeleteSO')
-data.setCell(2, 2, 'pak1.SOManipulation')
-data.setCell(2, 3, 29906);
+data.setCell(2, 1, 'Login1')
+data.setCell(2, 2, 'pak1.Login')
+data.setCell(2, 3, 25676);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'ViewSO')
 data.setCell(3, 2, 'pak1.SOManipulation')
-data.setCell(3, 3, 25813);
+data.setCell(3, 3, 17685);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'EditSO')
 data.setCell(4, 2, 'pak1.SOManipulation')
-data.setCell(4, 3, 15973);
+data.setCell(4, 3, 10047);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'Login1')
+data.setCell(5, 1, 'T4')
 data.setCell(5, 2, 'pak1.SOManipulation')
-data.setCell(5, 3, 231);
+data.setCell(5, 3, 487);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'T8')
+data.setCell(6, 1, 'Login1')
 data.setCell(6, 2, 'pak1.SOManipulation')
-data.setCell(6, 3, 1);
-data.setCell(7, 0, 7)
-data.setCell(7, 1, 'T6')
-data.setCell(7, 2, 'pak1.SOManipulation')
-data.setCell(7, 3, 1);
-data.setCell(8, 0, 8)
-data.setCell(8, 1, 'T5')
-data.setCell(8, 2, 'pak1.SOManipulation')
-data.setCell(8, 3, 1);
-data.setCell(9, 0, 9)
-data.setCell(9, 1, 'T4')
-data.setCell(9, 2, 'pak1.SOManipulation')
-data.setCell(9, 3, 1);
-data.setCell(10, 0, 10)
-data.setCell(10, 1, 'T7')
-data.setCell(10, 2, 'pak1.SOManipulation')
-data.setCell(10, 3, 0);
+data.setCell(6, 3, 155);
 window.suiteTableData['Suite_KeyedIN_001']= { tableData: data, tableDiv: 'times-div-Suite_KeyedIN_001'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-Suite_KeyedIN_001">
               </div> <!-- times-div-Suite_KeyedIN_001 -->
             </div> <!-- times-div -->
@@ -451,7 +408,7 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">Login1</span>
-                <span class="method-start">11623 ms</span>
+                <span class="method-start">16064 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
@@ -460,48 +417,28 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">Login1</span>
-                <span class="method-start">42207 ms</span>
+                <span class="method-start">41801 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">AddSO</span>
-                <span class="method-start">42468 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">DeleteSO</span>
-                <span class="method-start">72498 ms</span>
+                <span class="method-start">41997 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">EditSO</span>
-                <span class="method-start">102405 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">T4</span>
-                <span class="method-start">118382 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">T5</span>
-                <span class="method-start">118383 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">T6</span>
-                <span class="method-start">118384 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">T7</span>
-                <span class="method-start">118386 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">T8</span>
-                <span class="method-start">118387 ms</span>
+                <span class="method-start">67688 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">ViewSO</span>
-                <span class="method-start">118388 ms</span>
+                <span class="method-start">77736 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-test after">
-                <span class="method-name">afterTest</span>
-                <span class="method-start">144203 ms</span>
-              </div> <!-- configuration-test after -->
+              <div class="test-method">
+                <span class="method-name">DeleteSO</span>
+                <span class="method-start">95425 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">T4</span>
+                <span class="method-start">124295 ms</span>
+              </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

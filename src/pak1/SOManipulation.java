@@ -7,6 +7,7 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.testng.SkipException;
 import org.testng.annotations.Test;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.AfterTest;
@@ -16,7 +17,7 @@ public class SOManipulation extends Login
 {
 	public static String Str;
 	
-	@Test
+	@Test (priority=2)
 	  public void AddSO() 
 	  {
 		System.out.println("************** SALES ORDER CREATION **************");
@@ -42,7 +43,7 @@ public class SOManipulation extends Login
 		  
 	  }
 	
-	@Test
+	@Test (priority=3)
 	  public void EditSO() throws IOException
 	  {
 		System.out.println("Created Order Number is : "+Str);
@@ -64,7 +65,7 @@ public class SOManipulation extends Login
 				}
 	  }
 	
-	@Test
+	@Test (priority=4)
 	  public void ViewSO() throws IOException
 	  {
 		System.out.println("************** SALES ORDER VIEW **************");
@@ -85,7 +86,7 @@ public class SOManipulation extends Login
 		System.out.println("Order Number is: "+WW2.getText());
 	  }
 	
-	@Test
+	@Test (priority=5)
 	  public void DeleteSO() throws IOException
 	  {
 		System.out.println("************** SALES ORDER DELETE **************");
@@ -112,40 +113,11 @@ public class SOManipulation extends Login
 		dr.findElement(By.xpath("/html/body/div[2]/div/div[1]/div[1]/div/form/div[1]/button[1]")).click();
 	  }
 	
-	@Test
+	@Test (priority=6)
 	  public void T4()
 	  {
-		
+		  dr.findElement(By.xpath("/html/body/div")).click();
+		  System.out.println("***************************************@Testcase Skipped ***************************************");
+		  throw new SkipException("Test");
 	  }
-	
-	@Test
-	  public void T5()
-	  {
-		
-	  }
-	
-	@Test
-	  public void T6()
-	  {
-		
-	  }
-	
-	@Test
-	  public void T7()
-	  {
-		
-	  }
-	
-	@Test
-	  public void T8()
-	  {
-		
-	  }
-	
-	@AfterTest
-	  public void afterTest() 
-	  {
-		  
-	  }
-
 }

@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuite name="Logging KeyedIN using Framework"
-           tests="10"
+           tests="6"
            failures="1"
            errors="0"
-           skipped="0"
-           time="101.957">
+           skipped="1"
+           time="82.909">
   <properties />
-            <testcase name="Login1" time="0.231" classname="pak1.SOManipulation">
+            <testcase name="Login1" time="0.155" classname="pak1.SOManipulation">
                 <failure type="org.openqa.selenium.NoSuchElementException"
                   message="Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html/body/div/div/form/ul/li[1]/input&quot;}
-Command duration or timeout: 188 milliseconds
+Command duration or timeout: 148 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;2.48.2&apos;, revision: &apos;41bccdd&apos;, time: &apos;2015-10-09 19:59:12&apos;
 System info: host: &apos;CGVAK-204&apos;, ip: &apos;172.16.11.13&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_11&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
 Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=31.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 42d254ff-fc6f-49e2-a8a9-9463dbc516bf
+Session ID: dbdc423a-031c-4d61-9993-6172fc5e3ed3
 *** Element info: {Using=xpath, value=/html/body/div/div/form/ul/li[1]/input}"
               >
 <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"/html/body/div/div/form/ul/li[1]/input"}
-Command duration or timeout: 188 milliseconds
+Command duration or timeout: 148 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
 System info: host: 'CGVAK-204', ip: '172.16.11.13', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_11'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
 Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=31.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 42d254ff-fc6f-49e2-a8a9-9463dbc516bf
+Session ID: dbdc423a-031c-4d61-9993-6172fc5e3ed3
 *** Element info: {Using=xpath, value=/html/body/div/div/form/ul/li[1]/input}
   sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
   sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
@@ -68,25 +68,23 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
 System info: host: 'CGVAK-204', ip: '172.16.11.13', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_11'
 Driver info: driver.version: unknown
-  <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/SIVAKU~1/AppData/Local/Temp/anonymous7069052928194680599webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10659)
-  <anonymous class>.FirefoxDriver.prototype.findElement(file:///C:/Users/SIVAKU~1/AppData/Local/Temp/anonymous7069052928194680599webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10668)
-  <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/SIVAKU~1/AppData/Local/Temp/anonymous7069052928194680599webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12534)
-  <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///C:/Users/SIVAKU~1/AppData/Local/Temp/anonymous7069052928194680599webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12539)
-  <anonymous class>.DelayedCommand.prototype.execute/<(file:///C:/Users/SIVAKU~1/AppData/Local/Temp/anonymous7069052928194680599webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12481)
+  <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/SIVAKU~1/AppData/Local/Temp/anonymous5160521289378245894webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10659)
+  <anonymous class>.FirefoxDriver.prototype.findElement(file:///C:/Users/SIVAKU~1/AppData/Local/Temp/anonymous5160521289378245894webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10668)
+  <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/SIVAKU~1/AppData/Local/Temp/anonymous5160521289378245894webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12534)
+  <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///C:/Users/SIVAKU~1/AppData/Local/Temp/anonymous5160521289378245894webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12539)
+  <anonymous class>.DelayedCommand.prototype.execute/<(file:///C:/Users/SIVAKU~1/AppData/Local/Temp/anonymous5160521289378245894webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12481)
 ]]>
       </failure>
 
           </testcase>
   
+            <testcase name="T4" time="0.0" classname="pak1.SOManipulation">
+          <skipped />
+    </testcase>
   
-            <testcase name="T8" time="0.001" classname="pak1.SOManipulation" />
-                <testcase name="T6" time="0.001" classname="pak1.SOManipulation" />
-                <testcase name="AddSO" time="30.030" classname="pak1.SOManipulation" />
-                <testcase name="EditSO" time="15.973" classname="pak1.SOManipulation" />
-                <testcase name="T5" time="0.001" classname="pak1.SOManipulation" />
-                <testcase name="ViewSO" time="25.813" classname="pak1.SOManipulation" />
-                <testcase name="DeleteSO" time="29.906" classname="pak1.SOManipulation" />
-                <testcase name="T4" time="0.001" classname="pak1.SOManipulation" />
-                <testcase name="T7" time="0.000" classname="pak1.SOManipulation" />
+            <testcase name="DeleteSO" time="28.846" classname="pak1.SOManipulation" />
+                <testcase name="AddSO" time="25.689" classname="pak1.SOManipulation" />
+                <testcase name="EditSO" time="10.047" classname="pak1.SOManipulation" />
+                <testcase name="ViewSO" time="17.685" classname="pak1.SOManipulation" />
       
 </testsuite>

@@ -40,7 +40,7 @@ public class Login
 		return(pp);  
 	  }
 	
-	@Test
+	@Test (priority=1)
 	  public void Login1() throws IOException 
 	  {
 		try{

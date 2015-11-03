@@ -14,8 +14,8 @@
       </class> <!-- pak1.Login -->
       <class name="pak1.SOManipulation">
         <methods>
-          <include name="afterTest"/>
           <include name="Login1"/>
+          <include name="T4"/>
         </methods>
       </class> <!-- pak1.SOManipulation -->
     </classes>
