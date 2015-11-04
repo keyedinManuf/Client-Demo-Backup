@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="KeyedIN Complete Suite for Sales Order" verbose="1" >
+  <listeners>
+      <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+      <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="KeyedIN TestName" >
+    <classes>
+       <class name="pak0.DemoSOManipulation">
+        <methods>
+        <include name="Login" />
+        <include name="AddSO" />
+ <!--   <include name="SearchSO"/>
+        <include name="EditSO" />
+        <include name="ViewSO" />
+        <include name="DeleteSO" /> -->
+        </methods>
+       </class>
+    </classes>
+  </test>
+</suite>

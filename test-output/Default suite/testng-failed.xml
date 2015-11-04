@@ -3,13 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="pak.KeyedINTestNG">
+      <class name="Test.test123">
         <methods>
-          <include name="beforeTest"/>
+          <include name="DeleteSalesOrder"/>
+          <include name="ViewSalesOrder"/>
           <include name="afterTest"/>
-          <include name="CreateSO2"/>
+          <include name="beforeTest"/>
         </methods>
-      </class> <!-- pak.KeyedINTestNG -->
+      </class> <!-- Test.test123 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

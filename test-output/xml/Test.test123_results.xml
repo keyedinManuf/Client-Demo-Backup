@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test123"
+           tests="5"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="146.721">
+  <properties />
+  
+  
+            <testcase name="EditSalesOrder" time="26.731" classname="Test.test123" />
+                <testcase name="AddSalesOrder" time="40.886" classname="Test.test123" />
+                <testcase name="ViewSalesOrder" time="17.280" classname="Test.test123" />
+                <testcase name="SearchSaleOrder" time="18.045" classname="Test.test123" />
+                <testcase name="DeleteSalesOrder" time="43.779" classname="Test.test123" />
+      
+</testsuite>

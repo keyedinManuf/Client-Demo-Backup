@@ -1,12 +1,12 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="Suite_KeyedIN_001" >
+<suite name="Suite1234" verbose="1" >
 <listeners>
       <listener class-name="org.uncommons.reportng.HTMLReporter"/>
       <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
   </listeners>
-  <test name="Logging KeyedIN using Framework"   >
-    <packages>
-      <package name="pak1" />
-   </packages>
+  <test name="Test123"   >
+    <classes>
+      <class name="Test.test123" />
+   </classes>
  </test>
 </suite>

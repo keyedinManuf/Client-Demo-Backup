@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="KeyedIN TestName"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="91.872">
+  <properties />
+  
+  
+            <testcase name="AddSO" time="42.648" classname="pak0.DemoSOManipulation" />
+                <testcase name="Login" time="49.224" classname="pak0.DemoSOManipulation" />
+      
+</testsuite>
