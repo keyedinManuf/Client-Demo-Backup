@@ -7,15 +7,12 @@
   </listeners>
   <test name="Logging KeyedIN using Framework(failed)">
     <classes>
-      <class name="pak1.Login">
-        <methods>
-          <include name="beforeTest"/>
-        </methods>
-      </class> <!-- pak1.Login -->
       <class name="pak1.SOManipulation">
         <methods>
+          <include name="Login"/>
           <include name="Login1"/>
-          <include name="T4"/>
+          <include name="Quit"/>
+          <include name="beforeTest"/>
         </methods>
       </class> <!-- pak1.SOManipulation -->
     </classes>

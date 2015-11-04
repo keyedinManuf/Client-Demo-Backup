@@ -1,152 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="1" failed="1" total="7" passed="5">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite_KeyedIN_001" duration-ms="124794" started-at="2015-11-03T07:59:54Z" finished-at="2015-11-03T08:01:59Z">
+  <suite name="Sample Test Suite" duration-ms="98645" started-at="2015-11-04T08:14:12Z" finished-at="2015-11-04T08:15:51Z">
     <groups>
     </groups>
-    <test name="Logging KeyedIN using Framework" duration-ms="124794" started-at="2015-11-03T07:59:54Z" finished-at="2015-11-03T08:01:59Z">
-      <class name="pak1.Login">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:pak1.Login@6e4010]" name="beforeTest" is-config="true" duration-ms="16053" started-at="2015-11-03T13:29:54Z" finished-at="2015-11-03T13:30:10Z">
+    <test name="Method Test Cases" duration-ms="98645" started-at="2015-11-04T08:14:12Z" finished-at="2015-11-04T08:15:51Z">
+      <class name="pak1.SOManipulation">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:pak1.SOManipulation@35b0f5]" name="beforeTest" is-config="true" duration-ms="12478" started-at="2015-11-04T13:44:12Z" finished-at="2015-11-04T13:44:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="Login1()[pri:0, instance:pak1.Login@6e4010]" name="Login1" duration-ms="25676" started-at="2015-11-03T13:30:10Z" finished-at="2015-11-03T13:30:35Z">
+        <test-method status="PASS" signature="Login()[pri:0, instance:pak1.SOManipulation@35b0f5]" name="Login" is-config="true" duration-ms="37320" started-at="2015-11-04T13:44:25Z" depends-on-methods="pak1.Login.beforeTest" finished-at="2015-11-04T13:45:02Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Login1 -->
-      </class> <!-- pak1.Login -->
-      <class name="pak1.SOManipulation">
-        <test-method status="FAIL" signature="Login1()[pri:0, instance:pak1.SOManipulation@1a51cd4]" name="Login1" duration-ms="155" started-at="2015-11-03T13:30:36Z" finished-at="2015-11-03T13:30:36Z">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[Unable to locate element: {"method":"xpath","selector":"/html/body/div/div/form/ul/li[1]/input"}
-Command duration or timeout: 148 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
-System info: host: 'CGVAK-204', ip: '172.16.11.13', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_11'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=31.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: dbdc423a-031c-4d61-9993-6172fc5e3ed3
-*** Element info: {Using=xpath, value=/html/body/div/div/form/ul/li[1]/input}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"/html/body/div/div/form/ul/li[1]/input"}
-Command duration or timeout: 148 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
-System info: host: 'CGVAK-204', ip: '172.16.11.13', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_11'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=31.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: dbdc423a-031c-4d61-9993-6172fc5e3ed3
-*** Element info: {Using=xpath, value=/html/body/div/div/form/ul/li[1]/input}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:490)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:345)
-	at pak1.Login.Login1(Login.java:47)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:773)
-	at org.testng.TestRunner.run(TestRunner.java:623)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
-	at org.testng.TestNG.run(TestNG.java:1018)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"/html/body/div/div/form/ul/li[1]/input"}
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
-System info: host: 'CGVAK-204', ip: '172.16.11.13', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_11'
-Driver info: driver.version: unknown
-	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/SIVAKU~1/AppData/Local/Temp/anonymous5160521289378245894webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10659)
-	at <anonymous class>.FirefoxDriver.prototype.findElement(file:///C:/Users/SIVAKU~1/AppData/Local/Temp/anonymous5160521289378245894webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10668)
-	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/SIVAKU~1/AppData/Local/Temp/anonymous5160521289378245894webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12534)
-	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///C:/Users/SIVAKU~1/AppData/Local/Temp/anonymous5160521289378245894webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12539)
-	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///C:/Users/SIVAKU~1/AppData/Local/Temp/anonymous5160521289378245894webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12481)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Login1 -->
-        <test-method status="PASS" signature="AddSO()[pri:0, instance:pak1.SOManipulation@1a51cd4]" name="AddSO" duration-ms="25689" started-at="2015-11-03T13:30:36Z" finished-at="2015-11-03T13:31:01Z">
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="AddSO()[pri:0, instance:pak1.SOManipulation@35b0f5]" name="AddSO" duration-ms="31365" started-at="2015-11-04T13:45:02Z" finished-at="2015-11-04T13:45:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddSO -->
-        <test-method status="PASS" signature="EditSO()[pri:0, instance:pak1.SOManipulation@1a51cd4]" name="EditSO" duration-ms="10047" started-at="2015-11-03T13:31:01Z" finished-at="2015-11-03T13:31:11Z">
+        <test-method status="PASS" signature="EditSO()[pri:0, instance:pak1.SOManipulation@35b0f5]" name="EditSO" duration-ms="15733" started-at="2015-11-04T13:45:34Z" finished-at="2015-11-04T13:45:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EditSO -->
-        <test-method status="PASS" signature="ViewSO()[pri:0, instance:pak1.SOManipulation@1a51cd4]" name="ViewSO" duration-ms="17685" started-at="2015-11-03T13:31:11Z" finished-at="2015-11-03T13:31:29Z">
+        <test-method status="PASS" signature="Quit()[pri:0, instance:pak1.SOManipulation@35b0f5]" name="Quit" is-config="true" duration-ms="1726" started-at="2015-11-04T13:45:49Z" finished-at="2015-11-04T13:45:51Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ViewSO -->
-        <test-method status="PASS" signature="DeleteSO()[pri:0, instance:pak1.SOManipulation@1a51cd4]" name="DeleteSO" duration-ms="28846" started-at="2015-11-03T13:31:29Z" finished-at="2015-11-03T13:31:58Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- DeleteSO -->
-        <test-method status="SKIP" signature="T4()[pri:0, instance:pak1.SOManipulation@1a51cd4]" name="T4" duration-ms="487" started-at="2015-11-03T13:31:58Z" finished-at="2015-11-03T13:31:59Z">
-          <exception class="org.testng.SkipException">
-            <message>
-              <![CDATA[Test]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.SkipException: Test
-	at pak1.SOManipulation.T4(SOManipulation.java:121)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:773)
-	at org.testng.TestRunner.run(TestRunner.java:623)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
-	at org.testng.TestNG.run(TestNG.java:1018)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.SkipException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- T4 -->
+        </test-method> <!-- Quit -->
       </class> <!-- pak1.SOManipulation -->
-    </test> <!-- Logging KeyedIN using Framework -->
-  </suite> <!-- Suite_KeyedIN_001 -->
+    </test> <!-- Method Test Cases -->
+  </suite> <!-- Sample Test Suite -->
 </testng-results>

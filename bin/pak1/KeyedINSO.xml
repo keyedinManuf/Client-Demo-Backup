@@ -1,13 +1,18 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="Suite_KeyedIN_001" >
-<listeners>
+<suite name="Sample Test Suite" verbose="1" >
+  <listeners>
       <listener class-name="org.uncommons.reportng.HTMLReporter"/>
       <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
   </listeners>
-  <test name="Logging KeyedIN using Framework"   >
+  <test name="Method Test Cases" >
     <classes>
-      <class name="pak1.Login" />
-      <class name="pak1.SOManipulation" />
-   </classes>
- </test>
+       <class name="pak1.SOManipulation">
+        <methods>
+        <include name="Login" />
+        <include name="AddSO" />
+        <include name="EditSO" />
+        </methods>
+       </class>
+    </classes>
+  </test>
 </suite>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [KeyedIN SuiteName]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="KeyedIN TestName(failed)">
+    <classes>
+      <class name="pak1.SOManipulation">
+        <methods>
+          <include name="AddSO"/>
+          <include name="Login"/>
+          <include name="Login1"/>
+          <include name="ViewSO"/>
+          <include name="EditSO"/>
+          <include name="Quit"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- pak1.SOManipulation -->
+    </classes>
+  </test> <!-- KeyedIN TestName(failed) -->
+</suite> <!-- Failed suite [KeyedIN SuiteName] -->
