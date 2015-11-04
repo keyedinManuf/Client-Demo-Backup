@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Method Test Cases"
-           tests="2"
+<testsuite name="KeyedIN TestName"
+           tests="6"
            failures="0"
            errors="0"
            skipped="0"
-           time="47.098">
+           time="161.791">
   <properties />
   
   
-            <testcase name="EditSO" time="15.733" classname="pak1.SOManipulation" />
-                <testcase name="AddSO" time="31.365" classname="pak1.SOManipulation" />
+            <testcase name="Login" time="28.131" classname="pak1.SOManipulation" />
+                <testcase name="EditSO" time="25.464" classname="pak1.SOManipulation" />
+                <testcase name="ViewSO" time="25.339" classname="pak1.SOManipulation" />
+                <testcase name="DeleteSO" time="38.485" classname="pak1.SOManipulation" />
+                <testcase name="AddSO" time="29.673" classname="pak1.SOManipulation" />
+                <testcase name="SearchSO" time="14.699" classname="pak1.SOManipulation" />
       
 </testsuite>
