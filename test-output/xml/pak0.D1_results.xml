@@ -4,14 +4,14 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="163.750">
+           time="188.549">
   <properties />
   
   
-            <testcase name="ViewSalesOrder" time="27.472" classname="pak0.D1" />
-                <testcase name="SearchSaleOrder" time="27.377" classname="pak0.D1" />
-                <testcase name="AddSalesOrder" time="39.959" classname="pak0.D1" />
-                <testcase name="DeleteSalesOrder" time="27.474" classname="pak0.D1" />
-                <testcase name="EditSalesOrder" time="41.468" classname="pak0.D1" />
+            <testcase name="ViewSalesOrder" time="37.330" classname="pak0.D1" />
+                <testcase name="SearchSaleOrder" time="27.535" classname="pak0.D1" />
+                <testcase name="AddSalesOrder" time="54.738" classname="pak0.D1" />
+                <testcase name="DeleteSalesOrder" time="29.784" classname="pak0.D1" />
+                <testcase name="EditSalesOrder" time="39.162" classname="pak0.D1" />
       
 </testsuite>

@@ -152,7 +152,7 @@ public class D1 {
   dr.findElement(By.xpath(".//div[@data-label='Sales Orders']")).click();
   dr.findElement(By.xpath(".//input[@id='Name']")).sendKeys(str);
   dr.findElement(By.xpath(".//button[@data-label='Search']")).click();
-  Thread.sleep(1000);
+  Thread.sleep(10000);
   dr.findElement(By.xpath("/html/body/div[2]/div/div[1]/div[1]/div/form/div[2]/div/div[2]/div[3]/div[2]/div/table/tbody/tr/td[1]/div[2]/a[6]")).click();
   dr.findElement(By.xpath("/html/body/div[2]/div/div[1]/div[1]/div/form/div[2]/div/div[2]/div[3]/div[2]/div/table/tbody/tr/td[1]/div[2]/ul/li[3]/a")).click();
   }catch (Exception e){
