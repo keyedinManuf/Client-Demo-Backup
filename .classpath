@@ -7,5 +7,6 @@
 	<classpathentry kind="lib" path="D:/KeyedIN_Selenium_Package/reportng-1.1.4/reportng-1.1.4.jar"/>
 	<classpathentry kind="lib" path="D:/KeyedIN_Selenium_Package/reportng-1.1.4/velocity-dep-1.4.jar"/>
 	<classpathentry kind="lib" path="D:/KeyedIN_Selenium_Package/selenium-server-standalone-2.48.2.jar"/>
+	<classpathentry kind="lib" path="D:/KeyedIN_Selenium_Package/allure-maven-plugin-2.4.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

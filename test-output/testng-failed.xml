@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite1234]">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [KeyedIN Complete Suite for Sales Order]">
   <listeners>
     <listener class-name="org.uncommons.reportng.HTMLReporter"/>
     <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
   </listeners>
-  <test name="Test123(failed)">
+  <test name="KeyedIN TestName(failed)">
     <classes>
-      <class name="Test.test123">
+      <class name="pak0.D1">
         <methods>
-          <include name="DeleteSalesOrder"/>
-          <include name="ViewSalesOrder"/>
           <include name="EditSalesOrder"/>
           <include name="afterTest"/>
           <include name="beforeTest"/>
+          <include name="DeleteSalesOrder"/>
+          <include name="ViewSalesOrder"/>
         </methods>
-      </class> <!-- Test.test123 -->
+      </class> <!-- pak0.D1 -->
     </classes>
-  </test> <!-- Test123(failed) -->
-</suite> <!-- Failed suite [Suite1234] -->
+  </test> <!-- KeyedIN TestName(failed) -->
+</suite> <!-- Failed suite [KeyedIN Complete Suite for Sales Order] -->

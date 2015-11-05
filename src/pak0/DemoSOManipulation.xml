@@ -10,10 +10,10 @@
         <methods>
         <include name="Login" />
         <include name="AddSO" />
- <!--   <include name="SearchSO"/>
+ 	   <include name="SearchSO"/>
         <include name="EditSO" />
         <include name="ViewSO" />
-        <include name="DeleteSO" /> -->
+        <include name="DeleteSO" />
         </methods>
        </class>
     </classes>

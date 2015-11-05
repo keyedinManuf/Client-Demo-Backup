@@ -7,12 +7,15 @@
   </listeners>
   <test name="KeyedIN TestName(failed)">
     <classes>
-      <class name="pak0.DemoSOManipulation">
+      <class name="pak0.D1">
         <methods>
-          <include name="Quit"/>
-          <include name="EditSO"/>
+          <include name="EditSalesOrder"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="DeleteSalesOrder"/>
+          <include name="ViewSalesOrder"/>
         </methods>
-      </class> <!-- pak0.DemoSOManipulation -->
+      </class> <!-- pak0.D1 -->
     </classes>
   </test> <!-- KeyedIN TestName(failed) -->
 </suite> <!-- Failed suite [KeyedIN Complete Suite for Sales Order] -->

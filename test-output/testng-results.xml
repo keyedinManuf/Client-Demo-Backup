@@ -2,45 +2,45 @@
 <testng-results skipped="0" failed="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite1234" duration-ms="183981" started-at="2015-11-04T13:34:21Z" finished-at="2015-11-04T13:37:25Z">
+  <suite name="KeyedIN Complete Suite for Sales Order" duration-ms="201603" started-at="2015-11-05T11:17:42Z" finished-at="2015-11-05T11:21:04Z">
     <groups>
       <group name="Mygroup">
-        <method signature="test123.DeleteSalesOrder()[pri:0, instance:Test.test123@271936]" name="DeleteSalesOrder" class="Test.test123"/>
-        <method signature="test123.EditSalesOrder()[pri:0, instance:Test.test123@271936]" name="EditSalesOrder" class="Test.test123"/>
-        <method signature="test123.ViewSalesOrder()[pri:0, instance:Test.test123@271936]" name="ViewSalesOrder" class="Test.test123"/>
+        <method signature="D1.DeleteSalesOrder()[pri:0, instance:pak0.D1@2c3d18]" name="DeleteSalesOrder" class="pak0.D1"/>
+        <method signature="D1.EditSalesOrder()[pri:0, instance:pak0.D1@2c3d18]" name="EditSalesOrder" class="pak0.D1"/>
+        <method signature="D1.ViewSalesOrder()[pri:0, instance:pak0.D1@2c3d18]" name="ViewSalesOrder" class="pak0.D1"/>
       </group> <!-- Mygroup -->
     </groups>
-    <test name="Test123" duration-ms="183981" started-at="2015-11-04T13:34:21Z" finished-at="2015-11-04T13:37:25Z">
-      <class name="Test.test123">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:Test.test123@271936]" name="beforeTest" is-config="true" duration-ms="35035" started-at="2015-11-04T19:04:21Z" finished-at="2015-11-04T19:04:56Z">
+    <test name="KeyedIN TestName" duration-ms="201603" started-at="2015-11-05T11:17:42Z" finished-at="2015-11-05T11:21:04Z">
+      <class name="pak0.D1">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:pak0.D1@2c3d18]" name="beforeTest" is-config="true" duration-ms="35727" started-at="2015-11-05T16:47:42Z" finished-at="2015-11-05T16:48:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="AddSalesOrder()[pri:0, instance:Test.test123@271936]" name="AddSalesOrder" duration-ms="40886" started-at="2015-11-04T19:04:56Z" finished-at="2015-11-04T19:05:37Z">
+        <test-method status="PASS" signature="AddSalesOrder()[pri:0, instance:pak0.D1@2c3d18]" name="AddSalesOrder" duration-ms="39959" started-at="2015-11-05T16:48:18Z" finished-at="2015-11-05T16:48:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddSalesOrder -->
-        <test-method status="PASS" signature="SearchSaleOrder()[pri:0, instance:Test.test123@271936]" name="SearchSaleOrder" duration-ms="18045" started-at="2015-11-04T19:05:37Z" finished-at="2015-11-04T19:05:55Z">
+        <test-method status="PASS" signature="SearchSaleOrder()[pri:0, instance:pak0.D1@2c3d18]" name="SearchSaleOrder" duration-ms="27377" started-at="2015-11-05T16:48:58Z" finished-at="2015-11-05T16:49:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SearchSaleOrder -->
-        <test-method status="PASS" signature="EditSalesOrder()[pri:0, instance:Test.test123@271936]" name="EditSalesOrder" duration-ms="26731" started-at="2015-11-04T19:05:55Z" finished-at="2015-11-04T19:06:21Z">
+        <test-method status="PASS" signature="EditSalesOrder()[pri:0, instance:pak0.D1@2c3d18]" name="EditSalesOrder" duration-ms="41468" started-at="2015-11-05T16:49:25Z" finished-at="2015-11-05T16:50:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EditSalesOrder -->
-        <test-method status="PASS" signature="ViewSalesOrder()[pri:0, instance:Test.test123@271936]" name="ViewSalesOrder" duration-ms="17280" started-at="2015-11-04T19:06:21Z" finished-at="2015-11-04T19:06:39Z">
+        <test-method status="PASS" signature="ViewSalesOrder()[pri:0, instance:pak0.D1@2c3d18]" name="ViewSalesOrder" duration-ms="27472" started-at="2015-11-05T16:50:07Z" finished-at="2015-11-05T16:50:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ViewSalesOrder -->
-        <test-method status="PASS" signature="DeleteSalesOrder()[pri:0, instance:Test.test123@271936]" name="DeleteSalesOrder" duration-ms="43779" started-at="2015-11-04T19:06:39Z" finished-at="2015-11-04T19:07:22Z">
+        <test-method status="PASS" signature="DeleteSalesOrder()[pri:0, instance:pak0.D1@2c3d18]" name="DeleteSalesOrder" duration-ms="27474" started-at="2015-11-05T16:50:34Z" finished-at="2015-11-05T16:51:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DeleteSalesOrder -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:Test.test123@271936]" name="afterTest" is-config="true" duration-ms="2198" started-at="2015-11-04T19:07:22Z" finished-at="2015-11-04T19:07:25Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:pak0.D1@2c3d18]" name="afterTest" is-config="true" duration-ms="2072" started-at="2015-11-05T16:51:02Z" finished-at="2015-11-05T16:51:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- Test.test123 -->
-    </test> <!-- Test123 -->
-  </suite> <!-- Suite1234 -->
+      </class> <!-- pak0.D1 -->
+    </test> <!-- KeyedIN TestName -->
+  </suite> <!-- KeyedIN Complete Suite for Sales Order -->
 </testng-results>
